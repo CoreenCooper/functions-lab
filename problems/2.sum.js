@@ -5,9 +5,7 @@
  * @param {number} b - The second number to add.
  * @returns {number} - Equal to the sum of a and b
  */
-const sum = () => {
-
-}
+const sum = (a, b) => a + b;
 
 /**
  * Takes in three values and returns their sum
@@ -17,9 +15,8 @@ const sum = () => {
  * @param {number} c - The third number to add.
  * @returns {number} - Equal to the sum of a, b and c
  */
-const sumThree = () => {
 
-}
+const sumThree = (a, b, c) => a + b + c;
 
 /**
  * Subtracts two numbers
@@ -28,10 +25,7 @@ const sumThree = () => {
  * @param {number} b - the second number which is subtracted from the first
  * @returns {number} - Equal to a minus b
  */
-const subtract = () => {
-
-}
-
+const subtract = (a, b) => a - b;
 
 module.exports = {
   sum,
