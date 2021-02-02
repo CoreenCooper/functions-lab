@@ -5,7 +5,7 @@
  * @param {number} b - The second number to add.
  * @returns {number} - Equal to the sum of a and b
  */
-function sum() {
+const sum = () => {
 
 }
 
@@ -17,7 +17,7 @@ function sum() {
  * @param {number} c - The third number to add.
  * @returns {number} - Equal to the sum of a, b and c
  */
-function sumThree() {
+const sumThree = () => {
 
 }
 
@@ -28,7 +28,7 @@ function sumThree() {
  * @param {number} b - the second number which is subtracted from the first
  * @returns {number} - Equal to a minus b
  */
-function subtract() {
+const subtract = () => {
 
 }
 
