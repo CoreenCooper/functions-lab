@@ -5,9 +5,16 @@
  * @param {numbers} - this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-const sumAll = () => {
 
+ // must be written in ES5
+function sumAll(){
+  let sum = 0;
+  for (let el of arguments) {
+    sum += el
+  }
+  return sum
 }
+
 
 /**
  * Average all the arguments passed in, no matter how many there are
@@ -16,8 +23,15 @@ const sumAll = () => {
  * @param {numbers} - this could be any number of parameters, all number type
  * @returns {number} - A whole number the average of all the arguments passed in
  */
-const averageAll = () => {
 
+// how can I call sumAll in this function
+function averageAll() {
+  let average = 0;
+  let divisor = arguments.length 
+  for (let el of arguments) {
+    average += el / divisor
+  }
+  return Math.round(average);
 }
 
 /**
